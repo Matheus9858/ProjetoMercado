@@ -6,11 +6,14 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 
-public class Prateleira {
+public class Prateleira extends Localizacao {
     private ArrayList<Produto> produtos = new ArrayList<>();
 
-    public Prateleira() {
+    public Prateleira(String localizacao) {
+        super(localizacao);
     }
+
+   
       
     public void organizaPrateleira(){//ornaginazacao em ordem alfabetica
         try{
