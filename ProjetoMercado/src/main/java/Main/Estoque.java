@@ -9,5 +9,6 @@ package Main;
  * @author pcezar
  */
 public class Estoque {
+    private boolean disponibilidade;
     
 }
