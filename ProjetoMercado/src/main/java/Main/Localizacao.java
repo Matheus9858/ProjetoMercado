@@ -5,6 +5,10 @@ package Main;
 public class Localizacao {
         private String localizacao;
 
+    public Localizacao(String localizacao) {
+        this.localizacao = localizacao;
+    }
+
     public String getLocalizacao() {
         return localizacao;
     }
